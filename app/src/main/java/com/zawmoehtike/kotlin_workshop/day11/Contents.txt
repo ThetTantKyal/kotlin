@@ -1,0 +1,49 @@
+
+Jun 19, 2022
+- Theory of Thread
+    - What, Why, How
+- Databases, Tables (Knowledge)
+- Static Websites (Knowledge)
+- Dynamic Websites (Knowledge)
+- Static Web App (Knowledge)
+- Dynamic Web App (Knowledge)
+- Backend and Frontend (Knowledge)
+- Backend developer Vs Frontend developer (Knowledge)
+- API/Web Services (Knowledge)
+
+
+https <- Protocol (http, ftp, smtp, https, ssh, etc)
+www.javatpoint.com <- (domain name, website url, url)
+c-sharp-tutorial <- (uri)
+
+.com
+.org
+.edu
+
+.com.mm
+.com.us
+
+.edu.mm
+
+ucsy.edu.mm
+
+
+
+157.240.3.35 - 253 {
+    157.240.3.35
+    157.240.3.36
+    157.240.3.37
+    157.240.3.38
+    .
+    .
+    .
+    157.240.3.253
+}
+
+www.facebook.com -------------------> DNS Server -------------------------> 157.240.3.35
+                        [www.facebook.com is 157.240.3.35,
+                         www.google.com is ???,
+                         www.yahoo.com is ???,
+                         ...]
+
+122.10.10.10 --------------------------------------------------------------> 122.10.10.10

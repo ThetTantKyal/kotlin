@@ -1,0 +1,33 @@
+
+May 22, 2022
+- final, super keyword
+- method overloading, overriding
+
+--------------------------------------
+
+Method overriding
+----------------
+
+public int sum(int n1, int n2) { // original sum method
+    return (n1 + n2);
+}
+
+@override
+public int sum(int n1, int n2) { // override sum method
+    return (n1 + n2) + 10;
+}
+
+Method overloading
+----------------
+
+public int sum(int n1, int n2) { // original sum method
+    return (n1 + n2);
+}
+
+public int sum(int n1, int n2, int n3) { // overload sum method
+    return (n1 + n2 + n3);
+}
+
+public int sum(String n1, String n2) { // overload sum method
+    return (Integer.parseInt(n1) + Integer.parseInt(n2));
+}

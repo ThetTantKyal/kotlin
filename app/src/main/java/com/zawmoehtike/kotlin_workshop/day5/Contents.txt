@@ -1,0 +1,49 @@
+
+May 14, 2022
+- Looping
+- Array
+- ArrayList
+- List
+
+------------------------------------------------------------
+
+Class
+    Variables
+    Arrays
+    Lists
+    ArrayLists
+    Methods
+
+------------------------------------------------------------
+
+Theory of Array or ArrayList
+---------------
+---------------
+
+arrayList = ["AAA", "BBB", "CCC", "DDD", "EEE", "FFF"]
+
+arrayList.size() = 6
+
+// delete or remove
+arrayList.remove(1) // ["AAA", "CCC", "DDD", "EEE", "FFF"]
+arrayList.remove(1) // ["AAA", "DDD", "EEE", "FFF"]
+arrayList.remove(2) // ["AAA", "DDD", "FFF"]
+arrayList.size() = 3
+
+// insert or add
+arrayList.add("QQQ") // ["AAA", "DDD", "FFF", "QQQ"]
+arrayList.size() = 4
+arrayList.add("TTT") // ["AAA", "DDD", "FFF", "QQQ", "TTT"]
+arrayList.size() = 5
+
+// error while removing
+arrayList.remove(6) // Error!
+arrayList.remove(5) // Error!
+arrayList.remove(4) // ["AAA", "DDD", "FFF", "QQQ"]
+arrayList.size() = 4
+
+// update
+arrayList.set(3, "ZMH") // ["AAA", "DDD", "FFF", "ZMH"]
+
+// error while updating
+arrayList.set(4, "OOO") // Error!

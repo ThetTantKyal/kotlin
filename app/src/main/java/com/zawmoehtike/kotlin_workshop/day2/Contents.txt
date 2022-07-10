@@ -1,0 +1,8 @@
+
+May 08, 2022
+- System.out.println()
+- Comments
+- Variables declare/initiate, assign (scope static type variable_name)
+- Methods [Return, No return] (scope static return_type method_name)
+- Conditions (if, else)
+- Operators (+, -, *, /, %, =, ==, !=)
