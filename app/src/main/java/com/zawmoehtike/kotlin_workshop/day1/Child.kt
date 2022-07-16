@@ -1,13 +1,10 @@
 package com.zawmoehtike.kotlin_workshop.day1
 
-import kotlin.jvm.JvmStatic
+class Child : Parent() {
+}
 
-object Child : Parent() {
-
-    @JvmStatic
-    fun main(args: Array<String>) {
-        home1.stay()
-        car1.drive()
-        car1.stop()
-    }
+fun main() {
+    Parent.home1.stay()
+    Parent.car1.drive()
+    Parent.car1.stop()
 }

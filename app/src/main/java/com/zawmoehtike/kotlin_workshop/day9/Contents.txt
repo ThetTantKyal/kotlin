@@ -1,0 +1,5 @@
+
+Jun 12, 2022
+- make Android Project
+- make one Simple Android Application (apk file)
+- Date functions (Now, DD-MM-YYYY)
