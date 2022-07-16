@@ -1,0 +1,5 @@
+
+Jun 11, 2022
+- abstract class
+- math functions
+- rolling Dice, lucky lottery ticket
