@@ -1,45 +1,32 @@
-package com.zawmoehtike.kotlin_workshop.day8.abstract_folder;
+package com.zawmoehtike.kotlin_workshop.day8.abstract_folder
 
 // Dog is the child class of Pet
 // Child has only one parent
 // Parent has many children
 
-public class Dog extends Pet {
+class Dog : Pet() {
 
-    @Override
-    public void eat() {
+    override fun eat() {
         // TODO Auto-generated method stub
-        
     }
 
-    @Override
-    public void sleep() {
+    override fun sleep() {
         // TODO Auto-generated method stub
-        
     }
 
-    @Override
-    public void move() {
+    override fun move() {
         // TODO Auto-generated method stub
-        
     }
 
-    @Override
-    public void fly() {
+    override fun fly() {
         // TODO Auto-generated method stub
-        
     }
 
-    @Override
-    public void run() {
+    override fun run() {
         // TODO Auto-generated method stub
-        
     }
 
-    @Override
-    public void swim() {
+    override fun swim() {
         // TODO Auto-generated method stub
-        
     }
-    
 }
